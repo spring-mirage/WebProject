@@ -1,3 +1,3 @@
 # WebProject
 
-this code is for practice and fun, no is offical project
+this code is for practice and fun, not is offical project
