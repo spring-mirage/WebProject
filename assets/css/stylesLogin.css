@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    background: linear-gradient(90deg, rgb(92, 94, 93) 0%, rgb(36, 36, 37) 20%, rgb(0, 0, 0) 100%);
     text-align: center;
 }
 
@@ -80,15 +81,17 @@ a:hover {
 
 
 .loginform {
+    background: linear-gradient(150deg, rgb(21, 243, 62) 0%, rgb(19, 19, 202) 20%, rgb(220, 45, 45) 100%);
     font-size:larger;
     border-style: groove;
-    border-color: blueviolet;
+    border-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 input{
-    margin: 50px;
+    margin: 25px;
     display: block;
     height: 30px;
     width: 250px;
@@ -103,7 +106,8 @@ button {
 }
 
 button:hover {
-    background-color: rgb(103, 12, 239);
+    color: aliceblue;
+    background-color: rgb(38, 12, 239);
 }
 
 p {

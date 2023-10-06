@@ -1,5 +1,4 @@
 body {
-    background: rgb(75,4,127);
     background: linear-gradient(90deg, rgb(92, 94, 93) 0%, rgb(36, 36, 37) 20%, rgb(0, 0, 0) 100%);
     min-inline-size: 960px;
     max-inline-size: 1920px;
@@ -49,7 +48,7 @@ body {
     display: block;
 }
 
-.bodyimg {
+.cardbody {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: aliceblue;
@@ -62,7 +61,6 @@ body {
 }
 
 section {
-    background-color: #000000;
     display: block;
     border-style: groove;
     border-radius: 10px;
@@ -90,6 +88,10 @@ a:hover {
     color: rgb(255, 56, 56);
 }
 
+.imgSection {
+    border: none;
+}
+
 img {
     padding: 0;
     margin: 0;
@@ -98,6 +100,14 @@ img {
     border-radius: 25px;
     min-inline-size: 250px;
     max-inline-size: 250px;
+}
+
+img :hover {
+      cursor: pointer;
+}
+
+.information {
+    background-color: #000000;
 }
 
 p {
@@ -113,10 +123,10 @@ p {
 
 .social li {
     margin: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
     border-radius: 5px;
-    background-color: rgb(57, 91, 91);
+    background-color: rgb(47, 88, 88);
     text-decoration:overline;
 }
 
