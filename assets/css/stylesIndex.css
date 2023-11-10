@@ -110,20 +110,6 @@ a:hover {
     color: rgb(255, 56, 56);
 }
 
-.imgSection {
-    border: none;
-}
-
-.imgSection1 {
-    padding: 0;
-    margin: 0;
-    max-width: 500px;
-    max-height: 500px;
-    border-radius: 25px;
-    min-inline-size: 250px;
-    max-inline-size: 250px;
-}
-
 .information {
     background-color: #000000;
 }
