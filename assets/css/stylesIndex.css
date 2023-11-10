@@ -60,13 +60,14 @@ body {
     max-inline-size: 1000px;
 }
 
-.galerySec {
-    display: flex;
+.galery {
+    display: inline-flex;
     width: 600px;
-    height: 430px;
+    height: 430px; 
+    border-radius: 10px;
 }
 
-.galerySec img {
+.galery img {
     width: 0px;
     flex-grow: 1;
     object-fit: cover; 
@@ -74,7 +75,7 @@ body {
     transition: .5s ease;
 }
 
-.galerySec img:hover {
+.galery img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
@@ -113,7 +114,7 @@ a:hover {
     border: none;
 }
 
-img {
+.imgSection1 {
     padding: 0;
     margin: 0;
     max-width: 500px;
@@ -121,10 +122,6 @@ img {
     border-radius: 25px;
     min-inline-size: 250px;
     max-inline-size: 250px;
-}
-
-img :hover {
-      cursor: pointer;
 }
 
 .information {
