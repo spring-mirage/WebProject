@@ -157,11 +157,6 @@ p {
     background-color: rgb(255, 255, 255);
 }
 
-.icons svg {
-    min-width: 30px;
-    min-height: 30px;
-}
-
 .instagram:hover {
     text-decoration: solid;
     color: rgb(249, 0, 174);
